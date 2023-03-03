@@ -1,0 +1,7 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=host.docker.internal:8002;dbname=jobeet'
+      username: "jobeet"
+      password: "jobeet"
